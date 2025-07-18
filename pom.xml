@@ -18,7 +18,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <dependencies>
 	<dependency>
 		<groupId>org.junit.jupiter</groupId>
-		<artifactId>junit-jupiter</artifactID>
+		<artifactId>junit-jupiter</artifactId>
 		<version>5.10.2</version>
 		<scope>test</scope>
 	</dependency>
