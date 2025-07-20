@@ -24,10 +24,10 @@ jobs:
           java-version: 17
 
      - name: Build with maven
-        uses: mvn -B package --file pom.xml
+       run: mvn -B package --file pom.xml
 
       - name: Run test
-        uses: mvn test
+        run: mvn test
 
 
 
