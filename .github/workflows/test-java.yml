@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Setup java $ 
+      - name: Setup java $
 {{ matrix.java-version }}
         uses: actions/setup-java@v3
         with:
