@@ -16,7 +16,7 @@ jobs:
       matrix:
         java-version: [11, 17]
 
-     name: Java ${{ matrix.java-verison }}
+     name: Java ${{ matrix.java-version }}
      steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
