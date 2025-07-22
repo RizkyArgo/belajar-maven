@@ -35,7 +35,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<configuration>
 		<source>11</source>
 		<target>11</target>
-			</configuration>
+			
 
 <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
@@ -58,6 +58,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	</goals>
 	</execution>
 </executions>
+</configuration>
 		</plugin>
 	</plugins>
 	</build>
