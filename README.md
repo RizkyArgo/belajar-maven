@@ -1,2 +1,2 @@
 ![Java CI](https://github.com/RizkyArgo/belajar-maven/actions/workflows/test-java.yml/badge.svg)
-![code coverage](./coverage.svg)
+![coverage](https://raw.githubusercontent.com/USERNAME/REPO/gh-pages/jacoco.svg)
