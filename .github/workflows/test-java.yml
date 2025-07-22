@@ -36,8 +36,6 @@ jobs:
         run: mvn jacoco:report
 
       - name: Generate badges
-        uses:
-          cicirello/jacoco-badge-generator@v2
+        uses: cicirello/jacoco-badge-generator@v2
         with:
-          jacoco-report-path:
-            target/site/jacoco/jacoco.xml
+          jacoco-report-path: target/site/jacoco/jacoco.xml
