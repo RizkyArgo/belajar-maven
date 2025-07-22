@@ -30,4 +30,10 @@ public class KalkulatorTest{
 		kalku.pembagian(10,0);
 		});
         }
+
+	@Test
+	public void tesModulus() {
+		Kalkulator kalku = new Kalkulator();
+	assertEquals(1, kalku.modulus(3, 2));
+
 }

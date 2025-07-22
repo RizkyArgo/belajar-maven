@@ -32,5 +32,6 @@ jobs:
       - name: Run test
         run: mvn test
 
-
+      - name: Generate code coverage report
+        run: mvn jacoco:report
 
