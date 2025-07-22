@@ -36,4 +36,5 @@ public class KalkulatorTest{
 		Kalkulator kalku = new Kalkulator();
 	assertEquals(1, kalku.modulus(3, 2));
 
+	}
 }
